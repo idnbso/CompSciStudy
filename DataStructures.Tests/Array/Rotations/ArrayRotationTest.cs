@@ -7,7 +7,7 @@ namespace DataStructures.Tests.Array.Rotations
     public class ArrayRotationTest
     {
         [Fact]
-        public void RotateWithTempArray()
+        public void RotateWithTempArrayTest()
         {
             // Arrange
             var sourceArray = new int[] { 1, 2, 3, 4, 5, 6, 7 };
