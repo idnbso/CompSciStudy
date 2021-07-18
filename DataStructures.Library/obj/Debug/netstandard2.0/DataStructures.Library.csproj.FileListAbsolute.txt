@@ -1,8 +1,0 @@
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\bin\Debug\netstandard2.0\DataStructures.Library.deps.json
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\bin\Debug\netstandard2.0\DataStructures.Library.dll
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\bin\Debug\netstandard2.0\DataStructures.Library.pdb
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\obj\Debug\netstandard2.0\DataStructures.Library.csprojAssemblyReference.cache
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\obj\Debug\netstandard2.0\DataStructures.Library.AssemblyInfoInputs.cache
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\obj\Debug\netstandard2.0\DataStructures.Library.AssemblyInfo.cs
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\obj\Debug\netstandard2.0\DataStructures.Library.dll
-C:\Users\idanb\Downloads\Projects\computerscience\CompSciStudy\DataStructures.Library\obj\Debug\netstandard2.0\DataStructures.Library.pdb
