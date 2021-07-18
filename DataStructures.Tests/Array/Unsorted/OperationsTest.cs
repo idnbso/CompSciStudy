@@ -1,8 +1,5 @@
 ﻿using DataStructures.Array.Unsorted;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Xunit;
 
 namespace DataStructures.Tests.Array.Unsorted

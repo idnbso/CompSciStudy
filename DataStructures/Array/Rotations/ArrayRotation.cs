@@ -26,7 +26,7 @@ namespace DataStructures.Array.Rotations
         /// <param name="arraySize"></param>
         /// <param name="totalPositions"></param>
         /// <returns>Rotated Array</returns>
-        static public int[] RotateWithTempArray(int[] sourceArray, int totalPositions)
+        static public int[] GetRotatedArrayWithTempArray(int[] sourceArray, int totalPositions)
         {
             if (sourceArray.Length == totalPositions || totalPositions == 0) { return sourceArray; }
 
@@ -54,6 +54,47 @@ namespace DataStructures.Array.Rotations
             }
 
             return array;
+        }
+
+        /// <summary>
+        /// O(n)
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="rotation"></param>
+        static public void LeftRotateArray(int[] array, int rotation)
+        {
+            int index = 0;
+            int number = array[index];
+            int nextIndex = GetLeftRotationNextIndex(array.Length, index, rotation);
+            int temp = array[nextIndex];
+            array[nextIndex] = number;
+            array[index] = -1;
+            index = nextIndex;
+            number = temp;
+
+            while (number != -1)
+            {
+                nextIndex = GetLeftRotationNextIndex(array.Length, index, rotation);
+
+                temp = array[nextIndex];
+                array[nextIndex] = number;
+                index = nextIndex;
+                number = temp;
+            }
+        }
+
+        static private int GetLeftRotationNextIndex(int arrayLength, int index, int rotation)
+        {
+            var diff = index - rotation;
+            var absDiff = Math.Abs(diff);
+            if (diff < 0)
+            {
+                return absDiff > arrayLength ? arrayLength - (absDiff % arrayLength) : arrayLength + diff;
+            }
+            else
+            {
+                return diff % arrayLength;
+            }
         }
     }
 }
